@@ -17,76 +17,84 @@ str2 = " Silver Spoon "
 print(str2.strip)
 
 
-rstrip() :
-the rstrip() removes any trailing characters. Example:
-
+#rstrip() :
+#the rstrip() removes any trailing characters. Example:
 str3 = "Hello !!!"
 print(str3.rstrip("!"))
+
 Output:
 Hello
-replace() :
-The replace() method replaces all occurences of a string with another string. Example:
 
+#replace() :
+#The replace() method replaces all occurences of a string with another string. Example:
 str2 = "Silver Spoon"
 print(str2.replace("Sp", "M"))
+
 Output:
 Silver Moon
-split() :
-The split() method splits the given string at the specified instance and returns the separated strings as list items.
 
-Example:
+#split() :
+#The split() method splits the given string at the specified instance and returns the separated strings as list items.
+#Example:
 str2 = "Silver Spoon"
 print(str2.split(" "))      #Splits the string at the whitespace " ".
+
 Output:
 ['Silver', 'Spoon']
-There are various other string methods that we can use to modify our strings.
-capitalize() :
-The capitalize() method turns only the first character of the string to uppercase and the rest other characters of the string are turned to lowercase. The string has no effect if the first character is already uppercase.
+#There are various other string methods that we can use to modify our strings.
 
-Example:
+#capitalize() :
+#The capitalize() method turns only the first character of the string to uppercase and the rest other characters of the string are turned to lowercase. The string has no effect if the first character is already uppercase.
+#Example:
 str1 = "hello"
 capStr1 = str1.capitalize()
 print(capStr1)
 str2 = "hello WorlD"
 capStr2 = str2.capitalize()
 print(capStr2)
-Output:
+
+#Output:
 Hello
 Hello world
-center() :
-The center() method aligns the string to the center as per the parameters given by the user.
 
-Example:
+#center() :
+#The center() method aligns the string to the center as per the parameters given by the user.
+#Example:
 str1 = "Welcome to the Console!!!"
 print(str1.center(50))
-Output:
-            Welcome to the Console!!!
-We can also provide padding character. It will fill the rest of the fill characters provided by the user.
 
-Example:
+#Output:
+            Welcome to the Console!!!
+
+# We can also provide padding character. It will fill the rest of the fill characters provided by the user.
+#Example:
 str1 = "Welcome to the Console!!!"
 print(str1.center(50, "."))
-Output:
-............Welcome to the Console!!!.............
-count() :
-The count() method returns the number of times the given value has occurred within the given string.
 
-Example:
+#Output:
+............Welcome to the Console!!!.............
+
+#count() :
+#The count() method returns the number of times the given value has occurred within the given string.
+#Example:
+
 str2 = "Abracadabra"
 countStr = str2.count("a")
 print(countStr)
-Output:
-4
-endswith() :
-The endswith() method checks if the string ends with a given value. If yes then return True, else return False.
 
-Example :
+#Output:
+4
+
+#endswith() :
+#The endswith() method checks if the string ends with a given value. If yes then return True, else return False.
+#Example :
 str1 = "Welcome to the Console !!!"
 print(str1.endswith("!!!"))
-Output:
-True
-We can even also check for a value in-between the string by providing start and end index positions.
 
+#Output:
+True
+
+#We can even also check for a value in-between the string by providing start and end index positions.
 Example:
 str1 = "Welcome to the Console !!!"
 print(str1.endswith("to", 4, 10))
