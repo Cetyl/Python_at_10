@@ -1,37 +1,49 @@
-# upper() :
-# The upper() method converts a string to upper case.
-# Example:
-str1 = "AbcDEfghIJ"
-print(str1.upper())
+# 1. upper() 
+## The upper() method converts a string to upper case.
+### Example:
+```python 
+ str1 = "AbcDEfghIJ" 
+ print(str1.upper())
+```
 
-## lower()
+# 2. lower()
 ## The lower() method converts a string to lower case.
-#Example:
+### Example:
+```python
 str1 = "AbcDEfghIJ"
 print(str1.lower())
+```
 
-#strip() :
-#The strip() method removes any white spaces before and after the string.
-#Example:
+# 3. strip() :
+## The strip() method removes any white spaces before and after the string.
+### Example:
+```python
 str2 = " Silver Spoon "
 print(str2.strip)
+```
 
 
-#rstrip() :
-#the rstrip() removes any trailing characters. Example:
+# 4. rstrip() :
+### the rstrip() removes any trailing characters. 
+### Example:
+```python
 str3 = "Hello !!!"
 print(str3.rstrip("!"))
 
 Output:
 Hello
+```
 
-#replace() :
-#The replace() method replaces all occurences of a string with another string. Example:
+# 5. replace() :
+## The replace() method replaces all occurences of a string with another string. 
+### Example:
+```python
 str2 = "Silver Spoon"
 print(str2.replace("Sp", "M"))
 
 Output:
 Silver Moon
+```
 
 #split() :
 #The split() method splits the given string at the specified instance and returns the separated strings as list items.
