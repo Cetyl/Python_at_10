@@ -27,7 +27,6 @@ else:
     print("Number is positive.")
 
 Output:
-
 Number is Zero.
 
 ```
